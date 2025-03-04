@@ -1,7 +1,13 @@
 {
 	"slug" : "file-hierarchy-report",
-	"title" : "File Hierarchy Report",
-	"description": "Scanning files in a computer and building a report based on the findings",
+	"title" : {
+		"us":"File Hierarchy Report",
+		"es":"Reporte de Jerarquía de Archivos"
+	},
+	"description": {
+		"es":"Escanea archivos en un sistema informático utilizando una estructura de árbol para identificar archivos, carpetas y enlaces. El programa genera un informe en formato JSON, que incluye detalles como el total de archivos, extensiones de archivos, carpetas, enlaces encontrados y enlaces rotos. Verifica los enlaces realizando solicitudes GET para su validación.",
+		"us":"Scan files in a computer system using a tree structure to identify files, folders, and links. The program generates a report in JSON format, including details such as total files, file extensions, folders, links found, and broken links. It checks links for errors by making GET requests for verification."
+	},
 	"status": "published",
 	"duration" : 8,
 	"template_url": "https://github.com/4GeeksAcademy/flask-rest-hello",
@@ -11,5 +17,8 @@
 	"technologies": ["python", "terminal", "command line", "data-structures", "http.request", "file-hierarch"],
 	"talents": [],
     "autoPlay": false,
-    "projectType": "project"
+    "projectType": "project",
+	"telemetry": {
+	  "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=162"
+	  }
 }
