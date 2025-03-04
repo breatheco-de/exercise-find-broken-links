@@ -9,7 +9,7 @@ Another data-structure very commonly used in the world of coding are TREE's, for
 
 In this case, we will use the Tree Hierarchy concept to scan and browse through a group of files in a computer.
 
-<onlyfor saas="false" withBanner="false">
+<how-to-start>
     
 ## 🌱  How to start this project
 
@@ -50,7 +50,7 @@ $ python src/test.py
 
 💡 **Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.**
 
-</onlyfor>
+</how-to-start>
 
 # 📝 Instructions
 
